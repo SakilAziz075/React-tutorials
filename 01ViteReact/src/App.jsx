@@ -2,10 +2,14 @@ import Chai from "./chai"
 
 function App() {
 
+  const username = 'Sakil Aziz'
+
+
+  //INSIDE THE RETURN WE CAN WRITE ONLY THE EVALUATED EXPRESSION
   return (
     <>
       <Chai />
-      <p>Testing Fragment</p>
+      <p>Testing Fragment | {username}</p>
     </>
   )
 }
